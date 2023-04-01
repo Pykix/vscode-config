@@ -1,0 +1,44 @@
+{
+    // Editor
+    "editor.fontSize": 15,
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword.other.dotenv",
+                "settings": {
+                    "foreground": "#FF000000"
+                }
+            }
+        ]
+    },
+    "workbench.colorTheme": "Default Dark+ Experimental",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "none",
+    "editor.accessibilitySupport": "off",
+    "redhat.telemetry.enabled": false,
+    // Copilot
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": true
+    },
+    // Git
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.suggestSmartCommit": false,
+    // Terminal
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 16,
+    // Python
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnType": true
+    },
+    // Extensions
+    "Notes.notesLocation": "/home/ludovic/Documents/notes-vscodes",
+
+}
